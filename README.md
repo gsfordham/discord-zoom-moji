@@ -6,3 +6,5 @@ To use this, just copy the content of the file and paste it into a bookmark and 
 When you want to run it, just click the favorite/bookmark with Discord open in that tab.
 
 NOTE: Currently ONLY works with custom emoji, as the regular SVG emoji spritesheets mess up when zoomed. Will try to figure it out, eventually.
+
+NOTE: The second version, suffixed with "-tall" provides the same size emoji, but it makes the screen bigger, so it's easier to pick from a longer list.
