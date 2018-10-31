@@ -30,8 +30,8 @@
 			let is = (window.getComputedStyle(x));
 			let multiplier = 1.5;
 			if(sz == null){
-				x.style.width = ((multiplier * (parseFloat((is.getPropertyValue("width"))))) + "px");
-				x.style.height = ((multiplier * (parseFloat((is.getPropertyValue("height"))))) + "px");
+				if(w != false){x.style.width = ((multiplier * (parseFloat((is.getPropertyValue("width"))))) + "px");}
+				if(h != false)x.style.height = ((multiplier * (parseFloat((is.getPropertyValue("height"))))) + "px");}
 			}else{
 				if(w != false){x.style.width = (parseFloat(sz) + "px");}
 				if(h != false){x.style.height = (parseFloat(sz) + "px");}
